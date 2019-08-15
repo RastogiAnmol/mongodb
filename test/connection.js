@@ -7,7 +7,7 @@ const uri = "mongodb+srv://anmol:anmolrastogi@cluster0-m2epa.mongodb.net/test?re
 before((done) => {
 mongoose.connect(uri, {useNewUrlParser: true, useFindAndModify: false});
 mongoose.connection.once('open', function(){
-    console.log('Connection has been made, now make fireworks...');
+    console.log('Connection has been made...............');
     mongoose.connection.collections.mariochars.drop(() =>{
         console.log('Old DB dropped');
         done();
