@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/RastogiAnmol/mongodb#readme",
   "devDependencies": {
-    "mocha": "^6.2.0",
+    "mocha": "^10.2.0",
     "mongoose": "^5.6.9"
   }
 }
